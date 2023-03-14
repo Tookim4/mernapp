@@ -4,7 +4,6 @@ const {getGoals, postGoals, putGoals, deleteGoals} = require('../controllers/gCo
 
 
 router.route('/').get(getGoals).post(postGoals)
- 
 router.route('/:id').put(putGoals).delete(deleteGoals)
 
 
